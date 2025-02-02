@@ -1,0 +1,16 @@
+[project]
+name = "psd-ml"
+version = "0.1.0"
+description = "PSD Analysis with Machine Learning"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "obspy>=1.4.1",
+    "opencv-python>=4.11.0.86",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv]
+package = true

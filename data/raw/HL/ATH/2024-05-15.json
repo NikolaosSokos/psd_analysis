@@ -1,0 +1,20 @@
+{
+    "network": "HL",
+    "station": "ATH",
+    "channel": "HHZ",
+    "starttime": "2024-05-15",
+    "endtime": "2024-05-16",
+    "options": {
+        "dpi": 300,
+        "width": 800,
+        "height": 600,
+        "format": "png",
+        "cmap": "viridis",
+        "mean": "true",
+        "noisemodels": "true",
+        "xmin": 0.1,
+        "xmax": 50,
+        "ymin": -200,
+        "ymax": -50
+    }
+}
