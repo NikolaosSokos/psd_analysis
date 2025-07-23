@@ -1,0 +1,50 @@
+stations:
+  - network: HL
+    station: AMGA
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HL
+    station: APE
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HL
+    station: KARP
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HL
+    station: KSTE
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HL
+    station: KURT
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HL
+    station: KYPS
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HP
+    station: LTK
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HT
+    station: AKRO
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+  - network: HT
+    station: AMPK
+    location: "--"
+    channels: ["HHZ", "HHN", "HHE"]
+
+date_range:
+  start: "2025-02-16"
+  days: 10
+
+server:
+  base_url: "http://10.0.0.248:8000/histogram"
+
+output:
+  root_dir: "data/raw"
+
+plot_options:
+  format: "jpg"
